@@ -1,5 +1,8 @@
 import importlib.metadata
 
+# Use package metadata: You can retrieve the project 
+# name from the package metadata using the importlib.metadata 
+# module (available in Python 3.8 and later).
 
 def get_project_name():
     try:
