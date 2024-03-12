@@ -1,7 +1,4 @@
 import importlib.metadata
-import sys
-
-from . import main2
 
 
 def get_project_name():
@@ -17,8 +14,5 @@ def main() -> int:
         print("Project name:", project_name)
     else:
         print("Project name not found.")
-
-    out = main2.render_template("extended.j2")
-    sys.stdout.write(out)
 
     return 0

@@ -1,5 +1,5 @@
 # anywherewill
 
-## Learning jinja2 template inheritance
+## Purpose
 
-https://jinja.palletsprojects.com/en/latest/templates/#template-inheritance
+Learn how to programmatically fetch project name from installed app.
